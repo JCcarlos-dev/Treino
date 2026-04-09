@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <body>
+   <p><b>DESAFIO 1</b></p>
+   
+    <table border="1">
+        
+      <tr>
+        <th rowspan="2">Autor</th>
+        <th colspan="3">Música</th>
+      </tr>
+
+      <tr>
+        <th>Nome</th>
+        <th>Letra</th>
+        <th>Cifra</th>
+      </tr>
+
+      <tr>
+        <td rowspan="3"> Gilberto Gil</td>
+        <td>Você é linda</td>
+        <td>X</td>
+        <td>-</td>
+      </tr>
+
+      <tr>
+        <td>Palco</td>
+        <td>-</td>
+        <td>X</td>
+      </tr>
+
+      <tr>
+        <td>Ando com fé</td>
+        <td>-</td>
+        <td>X</td>
+      </tr>
+
+    </table>
+
+    <a href="desaio_2_tabela"><p>Próximo desafio</p></a>
+  </body>
+</html>
