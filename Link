@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto link + tabelas</title>
+</head>
+<body>
+
+    <b>Segue os links logo abaixo:</b>
+
+    <p>
+        <a href="https://www.youtube.com/watch?v=RDrfZ-7WE8c" target="_blank">Visite o YouTube</a><br/>
+        <a href="tabelas.html">Tabelas</a>
+    </p>
+
+</body>
+</html>
