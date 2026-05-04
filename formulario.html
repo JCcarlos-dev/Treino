@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de cadastro</title>
+</head>
+<body>
+    <h1>formulario de cadastro</h1><br>
+    <h2>Inicio do formulario</h2>
+    <form action="" method="get">
+        
+        
+       <h3>Selecione o tipo de combustivel:</h3>  
+        <input type="radio" name="gas" id="gas" value="gas"/>gasolina<br/>
+        <input type="radio" name="gas" id="gas" value="alc"/> ALcool<br/>
+        <input type="radio" name="gas" id="gas" value="gnv"/> gnv<br/>
+        <input type="radio" name="gas" id="gas" value="flex"/>flex<br/>
+
+
+         <h3>Selecione os adicionais:</h3>  
+        <input type="checkbox" name="gas" id="gasolina" value="gas"/>gasolina<br/>
+        <input type="checkbox" name="gas" id="Alcool" value="alc"/> Alcool<br/>
+        <input type="checkbox" name="gas" id="gnv" value="gnv"/> gnv<br/>
+        <input type="checkbox" name="gas" id="flex" value="flex"/>flex<br/>
+        <br>
+        Escolha o fabricante do carro: <br>
+        <select name="car" id="car" required>
+            <option value="" disabled selected>Selecione</option>
+            <option value="Fiat">Fiat</option>
+            <option value="Hyundai">Hyundai</option>
+            <option value="BYD">BYD</option>
+            <option value="Honda">Honda</option>
+        </select>
+    </form>
+
+</body>
+</html>
